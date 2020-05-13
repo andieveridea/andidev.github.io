@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Deploy Test</title>
+    <title>Toyota Racing Challenge</title>
+    <style>
+      body { margin: 0; }
+      #gameContainer { width: 100vw; height: 100vh; }
+      canvas { width: 100%; height: 100%; }
+    </style>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      UnityLoader.instantiate("unityContainer", "Build/DownloadImage.json");
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Protoype Test.json");
     </script>
   </head>
+
   <body>
-    <div id="unityContainer" style="width: 1080px; height: 1920px; margin: auto"></div>
+    <div id="gameContainer"></div>
   </body>
+
 </html>
