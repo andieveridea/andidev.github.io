@@ -1,0 +1,17 @@
+{
+"companyName": "AntiGravity",
+"productName": "Toyota Racing Challenge",
+"productVersion": "1.0",
+"dataUrl": "201642d58f20b375523ad6ba62428aba.unityweb",
+"wasmCodeUrl": "1b4a0dfb974d93b172cba8682408c09a.unityweb",
+"wasmFrameworkUrl": "2d3b3ef71cf087bd56c9a026188aa407.unityweb",
+"wasmSymbolsUrl": "7af95b891b6e02155f1364a920f5c347.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.4f1"
+}
